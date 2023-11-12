@@ -16,7 +16,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: rgba(249, 249, 249, 0.95);
   text-decoration: inherit;
 }
 a:hover {
@@ -24,12 +24,13 @@ a:hover {
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
+  font-size: 3rem;
+  font-weight: 400;
+  color: rgba(249, 249, 249, 0.95);
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: rgba(249, 249, 249, 0.95);
 }
 
 body {
@@ -87,7 +88,7 @@ button:focus-visible {
   }
 }
 body {
-  background:center / cover no-repeat url("assets/HOME-BACKGROUND.jpg") rgba(0, 0, 0, .5);
+  background:center / cover no-repeat url("assets/HOME-BACKGROUND2.jpg") rgba(0, 0, 0, .7);
   background-blend-mode: multiply;
   overflow: hidden;
 }
