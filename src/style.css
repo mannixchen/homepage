@@ -88,7 +88,7 @@ button:focus-visible {
   }
 }
 body {
-  background:center / cover no-repeat url("assets/HOME-BACKGROUND2.jpg") rgba(0, 0, 0, .7);
+  background:center / cover no-repeat url("http://cdn.gnim.top/mannixchen.com/HOME-BACKGROUND2.jpg") rgba(0, 0, 0, .7);
   background-blend-mode: multiply;
   overflow: hidden;
 }
