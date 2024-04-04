@@ -31,13 +31,19 @@ console.log("浏览器语言:", userLanguage);
 </script>
 
 <template>
-  <div class="language">
+  <div class="home-header">
+    <a class="homepage show-more" href="https://blog.mannixchen.com">
+      {{ isZh ? 'Blog' : '博客' }}
+    </a>
+    <div class="language">
     <span>
           <span :class="{ lang: true, 'focus-lang': isZh }" @click="changeLanguage('zh')">中文 </span>
           <span :class="{ lang: true, 'focus-lang': !isZh }" @click="changeLanguage('en')"> English</span>
     </span>
 
+    </div>
   </div>
+
   <div class="avatar">
     <span class="avatar-img"></span>
   </div>
@@ -88,6 +94,10 @@ console.log("浏览器语言:", userLanguage);
   transform: translate(-50%, -50%);
   border-radius: 5px;
 }
+.home-header {
+  display: flex;
+  justify-content: space-between;
+}
 .close-detail {
   display: inline-block;
   width: 30px;
@@ -115,8 +125,16 @@ console.log("浏览器语言:", userLanguage);
 }
 
 .language {
+  margin-right: 10px;
   text-align: right;
   color: #cccccc;
+}
+.homepage {
+  font-size: 1.6em;
+  margin-left: 10px;
+  text-align: left;
+  color: #cccccc;
+  cursor: pointer;
 }
 
 .avatar {
