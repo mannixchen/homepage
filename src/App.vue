@@ -33,7 +33,7 @@ console.log("浏览器语言:", userLanguage);
 <template>
   <div class="home-header">
     <a class="homepage show-more" href="https://blog.mannixchen.com">
-      {{ isZh ? 'Blog' : '博客' }}
+      {{ isZh ? '博客' : 'Blog' }}
     </a>
     <div class="language">
     <span>
