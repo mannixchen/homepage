@@ -1,6 +1,6 @@
 <script setup>
 import {ref} from 'vue'
-import {BILIBILISPACE, YOUTUBESPACE, GITHUBSPACE, QINIUYUNURL} from './const.js'
+import {BILIBILISPACE, YOUTUBESPACE, GITHUBSPACE, GITHUBYUNURL} from './const.js'
 
 let userLanguage = navigator.language || navigator.userLanguage;
 let localLang = localStorage.getItem("isZh");
@@ -143,7 +143,7 @@ console.log("浏览器语言:", userLanguage);
 }
 
 .avatar-img {
-  background: center / cover no-repeat url("http://cdn.gnim.top/mannixchen.com/AVATAR.jpg") rgba(0, 0, 0, .7);
+  background: center / cover no-repeat url("https://raw.githubusercontent.com/mannixchen/Pics/master/mannixchen.com/AVATAR.jpg") rgba(0, 0, 0, .7);
   display: inline-block;
   height: 100px;
   width: 100px;
